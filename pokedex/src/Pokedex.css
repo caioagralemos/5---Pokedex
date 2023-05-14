@@ -1,0 +1,19 @@
+.Pokedex-cards{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    /* space-evenly pra fazer o espaço entre as cards ficar igual
+    flex-wrap em wrap pra permitir que as cartas caiam de linha */
+}
+
+.Result-win {
+    color: green;
+}
+
+.Result-lose {
+    color: red;
+}
+
+.Trunfo {
+    color: gold;
+}
